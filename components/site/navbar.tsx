@@ -8,14 +8,11 @@ import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { GdgLogo } from './gdg-logo'
 import { ThemeToggle } from './theme-toggle'
-import { UserMenu } from './user-menu'
 
 const LINKS = [
   { href: '/', label: 'Home', index: '00' },
   { href: '/events', label: 'Events', index: '01' },
-  { href: '/announcements', label: 'Announcements', index: '02' },
-  { href: '/team', label: 'Team', index: '03' },
-  { href: '/join', label: 'Join', index: '04' },
+  { href: '/team', label: 'Team', index: '02' },
 ]
 
 function isActive(pathname: string, href: string) {
@@ -81,7 +78,6 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <UserMenu />
           <button
             type="button"
             onClick={() => setOpen((o) => !o)}

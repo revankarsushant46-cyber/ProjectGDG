@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-import { ArrowLeft, CalendarDays, Clock, MapPin, Video, Users, MessageSquare } from 'lucide-react'
+import { ArrowLeft, CalendarDays, Clock, MapPin, Video } from 'lucide-react'
 import { EVENTS, getEvent } from '@/lib/events'
 import { ACCENTS } from '@/lib/accent'
 import { EventArt } from '@/components/blueprint/event-art'
@@ -9,7 +9,6 @@ import { MediaFrame } from '@/components/blueprint/media-frame'
 import { AvatarArt } from '@/components/blueprint/avatar-art'
 import { BlueprintButton } from '@/components/site/blueprint-button'
 import { EventCard, EventKicker } from '@/components/events/event-card'
-import { EventClientSections } from '@/components/events/event-client-sections'
 import { Reveal, SectionLabel } from '@/components/motion/reveal'
 import { cn } from '@/lib/utils'
 
@@ -150,17 +149,6 @@ export default async function EventDetailPage({ params }: { params: Promise<{ sl
               ))}
             </ul>
           </section>
-
-          {e.status === 'upcoming' && (
-            <>
-              <EventClientSections
-                eventId={e.slug}
-                eventTitle={e.title}
-                whatsappUrl={e.whatsappGroupUrl}
-                isUpcoming={true}
-              />
-            </>
-          )}
         </div>
 
         <aside className="lg:sticky lg:top-24 lg:self-start" aria-label="Event summary">
