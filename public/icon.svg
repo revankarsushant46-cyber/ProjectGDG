@@ -1,0 +1,10 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>GDG on Campus RVCE</title>
+  <rect width="512" height="512" rx="112" fill="#FFFFFF"/>
+  <g>
+    <g transform="rotate(-37 126.25263508510763 191.00397749957878)"><rect x="40.25263508510763" y="141.00397749957878" width="172" height="100" rx="50" fill="#EA4335" stroke="#0B0D10" stroke-width="16"/></g>
+    <g transform="rotate(37 126.25263508510763 320.9960225004212)"><rect x="40.25263508510763" y="270.9960225004212" width="172" height="100" rx="50" fill="#4285F4" stroke="#0B0D10" stroke-width="16"/></g>
+    <g transform="rotate(217 385.7473649148924 191.00397749957878)"><rect x="299.7473649148924" y="141.00397749957878" width="172" height="100" rx="50" fill="#34A853" stroke="#0B0D10" stroke-width="16"/></g>
+    <g transform="rotate(143 385.7473649148924 320.9960225004212)"><rect x="299.7473649148924" y="270.9960225004212" width="172" height="100" rx="50" fill="#FBBC04" stroke="#0B0D10" stroke-width="16"/></g>
+  </g>
+</svg>
