@@ -18,6 +18,8 @@ A blueprint-styled home for the **Google Developer Group on Campus** at RV Colle
 
 </div>
 
+**🔗 Live Demo:** [https://projectgdg-uvdk.netlify.app/](https://projectgdg-uvdk.netlify.app/)
+
 ---
 
 ## ✨ Overview
@@ -41,6 +43,18 @@ The visual language leans into a **technical "blueprint" aesthetic**: a subtle g
 - 🎞️ **Motion, done right** — tasteful reveal animations via `framer-motion`, respecting `prefers-reduced-motion`.
 - 🧱 **Fully static-exportable** — ships as plain HTML/CSS/JS, deployable anywhere.
 - ♿ **Accessible by default** — keyboard-friendly, focus-visible rings, semantic landmarks, and a skip-to-content link.
+
+---
+
+## 📸 Screenshots
+
+| Home — Hero & Up Next | Events — Explorer |
+|:---:|:---:|
+| ![Home](https://github.com/revankarsushant46-cyber/ProjectGDG/raw/main/public/images/events/build-with-ai.png) | ![Events](https://github.com/revankarsushant46-cyber/ProjectGDG/raw/main/public/images/events/web-beyond-the-browser.png) |
+
+| Event Detail — Agenda & Speakers | Team Directory |
+|:---:|:---:|
+| ![Event Detail](https://github.com/revankershant46-cyber/ProjectGDG/raw/main/public/images/events/cloud-code-deploy.png) | ![Team](https://github.com/revankarsushant46-cyber/ProjectGDG/raw/main/public/images/events/build-weekend.png) |
 
 ---
 
